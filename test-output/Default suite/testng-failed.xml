@@ -7,6 +7,8 @@
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="LoginFailureTest"/>
+          <include name="LockedUserLoginFailureTest"/>
           <include name="LoginSucessTest"/>
         </methods>
       </class> <!-- swaglab_test.login_test -->

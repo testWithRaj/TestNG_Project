@@ -3,12 +3,8 @@
 <suite name="Simplilearn">
   <test thread-count="5" name="SmokeTest">
     <classes>
-      <class name="testng.annotations_example"/>
-      <class name="testng.Annotations_example2">
+      <class name="swaglab_test.login_test">
 		
-		<methods>
-			<include name="test4"></include>
-		</methods>
 		</class>
     </classes>
   </test> <!-- Test -->

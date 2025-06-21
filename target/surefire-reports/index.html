@@ -166,8 +166,8 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Simplilearn&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;SmokeTest&quot;&gt;
+&lt;suite name=&quot;Simplilearn&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;SmokeTest&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;swaglab_test.login_test&quot;/&gt;
     &lt;/classes&gt;
@@ -211,22 +211,22 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'LoginFailureTest')
+data.setCell(0, 1, 'LockedUserLoginFailureTest')
 data.setCell(0, 2, 'swaglab_test.login_test')
-data.setCell(0, 3, 328);
+data.setCell(0, 3, 413);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'LockedUserLoginFailureTest')
+data.setCell(1, 1, 'LoginSucessTest')
 data.setCell(1, 2, 'swaglab_test.login_test')
-data.setCell(1, 3, 299);
+data.setCell(1, 3, 352);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'LoginSucessTest')
+data.setCell(2, 1, 'LoginFailureTest')
 data.setCell(2, 2, 'swaglab_test.login_test')
-data.setCell(2, 3, 289);
+data.setCell(2, 3, 297);
 window.suiteTableData['Simplilearn']= { tableData: data, tableDiv: 'times-div-Simplilearn'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 916 ms</span>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
               <div id="times-div-Simplilearn">
               </div> <!-- times-div-Simplilearn -->
             </div> <!-- times-div -->
@@ -259,35 +259,35 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">LockedUserLoginFailureTest</span>
-                <span class="method-start">4813 ms</span>
+                <span class="method-start">4249 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">5114 ms</span>
+                <span class="method-start">4664 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">5374 ms</span>
+                <span class="method-start">4821 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">LoginSucessTest</span>
-                <span class="method-start">7400 ms</span>
+                <span class="method-start">8087 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">7690 ms</span>
+                <span class="method-start">8440 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">7893 ms</span>
+                <span class="method-start">8560 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">LoginFailureTest</span>
-                <span class="method-start">9798 ms</span>
+                <span class="method-start">10758 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">10127 ms</span>
+                <span class="method-start">11055 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
